@@ -78,7 +78,7 @@ class PrincipalBD:
             self.id = 0
             self.iid = 0
             registros = self.objBD.selecionarDados()
-            print("************************  dados disponiveis no BD ************************")
+            print("************************ dados disponiveis no BD ************************")
             for item in registros:
                 codigo = item[0]
                 nome = item[1]
